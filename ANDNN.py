@@ -2,7 +2,7 @@ import torch #import pytorch library
 import torch.nn as nn
 import torch.optim as optim
 
-# Nueral Network learning is like learning a school course, You are trained on certain data, and the tested on it.
+# Nueral Network learning is like learning a school course, You are trained on certain data, and then tested on it.
 
 #--------------------------------------------------------------- Training Data --------------------------------------------------------------
 train_x = torch.tensor([[0, 0], [0, 1], [1, 0], [1, 1]], dtype=torch.float) # Problem
