@@ -32,7 +32,7 @@ criterion = nn.MSELoss() # Loss: the penalty for a bad prediction (helps the NN 
 optimizer = optim.SGD(net.parameters(), lr=0.1) # Optimizer: Algorithm that adjusts the weights and learning rates of the neural network
 
 #--------------------------------------------------------------- Training Loop --------------------------------------------------------------
-for epoch in range(11111): # runs 11111 times
+for epoch in range(20000): # runs 11111 times
     
     output = net(train_x) # Feeds training data from train_x into the NN by calling the network as a function "net"
     loss = criterion(output, train_y) #calculates the loss between the problem(train_x) and solutions(train_y)
