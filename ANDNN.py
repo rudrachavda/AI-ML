@@ -57,8 +57,8 @@ for epoch in range(20000): # runs 11111 times
 while True:
     print("")
     print("If both inputs are 1 --> 1, otherwise everything else should be 0")
-    test_input = input("Enter first input for testing (0 or 1), or 'exit' to quit: ")
-    if test_input.lower() == "exit":
+    test_input = input("Enter first input for testing (0 or 1), or 'q' to quit: ")
+    if test_input.lower() == "q":
         break
     test_input2 = input("Enter second input for testing (0 or 1): ")
 
