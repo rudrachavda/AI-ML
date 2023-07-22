@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import base64
 
 app = Flask(__name__)
-
+exi
 @app.route('/process_image', methods=['POST'])
 def process_image():
     # Get the image file from the request
